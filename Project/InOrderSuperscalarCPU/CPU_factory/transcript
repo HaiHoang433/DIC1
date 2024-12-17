@@ -1,0 +1,43 @@
+# Compile of ram_2p.v was successful.
+# Compile of stack.sv was successful.
+# Compile of stack_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.stack_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf
+# vsim work.stack_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf 
+# Start time: 15:00:12 on Apr 20,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.stack_tb(fast)
+# Loading work.ram_2p(fast)
+quit -sim
+# End time: 15:00:23 on Apr 20,2023, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 3
+vsim -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf work.stack_tb -novopt
+# vsim -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf work.stack_tb -novopt 
+# Start time: 15:00:36 on Apr 20,2023
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 15:00:39 on Apr 20,2023, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 1
+vsim -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -vopt work.stack_tb -voptargs=+acc
+# vsim -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -vopt work.stack_tb -voptargs="+acc" 
+# Start time: 15:02:12 on Apr 20,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stack_tb(fast)
+# Loading work.stack(fast)
+# Loading work.ram_2p(fast)
+# Loading C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+add wave -position insertpoint sim:/stack_tb/iDUT/STACK_MEM/*
+run -all
+# TEST 0-0 passed: push one data and pop one data passes after 10000 random tests at port 0
+# TEST 0-1 passed: push one data and pop one data passes after 10000 random tests at port 1
+# TEST 0-2 failed when pop at port 0: push data 2775154e != pop data 38065570
+# ** Note: $stop    : I:/ECE554/ECE554_SP23/Project/InOrderSuperscalarCPU/CPU_factory/stack_tb.sv(149)
+#    Time: 600190 ps  Iteration: 1  Instance: /stack_tb
+# Break in Module stack_tb at I:/ECE554/ECE554_SP23/Project/InOrderSuperscalarCPU/CPU_factory/stack_tb.sv line 149
+run -step
+run -over

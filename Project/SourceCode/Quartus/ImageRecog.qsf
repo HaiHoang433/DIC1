@@ -1,0 +1,238 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY "ImageRecog"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:49:52 MARCH 09,2023"
+
+#============================================================
+# CLOCK
+#============================================================
+
+#============================================================
+# SDRAM
+#============================================================
+
+set_location_assignment PIN_W3 -to DRAM_DQ[0]
+set_location_assignment PIN_W2 -to DRAM_DQ[1]
+set_location_assignment PIN_V4 -to DRAM_DQ[2]
+set_location_assignment PIN_W1 -to DRAM_DQ[3]
+set_location_assignment PIN_V3 -to DRAM_DQ[4]
+set_location_assignment PIN_V2 -to DRAM_DQ[5]
+set_location_assignment PIN_V1 -to DRAM_DQ[6]
+set_location_assignment PIN_U3 -to DRAM_DQ[7]
+set_location_assignment PIN_Y3 -to DRAM_DQ[8]
+set_location_assignment PIN_Y4 -to DRAM_DQ[9]
+set_location_assignment PIN_AB1 -to DRAM_DQ[10]
+set_location_assignment PIN_AA3 -to DRAM_DQ[11]
+set_location_assignment PIN_AB2 -to DRAM_DQ[12]
+set_location_assignment PIN_AC1 -to DRAM_DQ[13]
+set_location_assignment PIN_AB3 -to DRAM_DQ[14]
+set_location_assignment PIN_AC2 -to DRAM_DQ[15]
+set_location_assignment PIN_Y7 -to DRAM_ADDR[12]
+set_location_assignment PIN_AA5 -to DRAM_ADDR[11]
+set_location_assignment PIN_R5 -to DRAM_ADDR[10]
+set_location_assignment PIN_Y6 -to DRAM_ADDR[9]
+set_location_assignment PIN_Y5 -to DRAM_ADDR[8]
+set_location_assignment PIN_AA7 -to DRAM_ADDR[7]
+set_location_assignment PIN_W7 -to DRAM_ADDR[6]
+set_location_assignment PIN_W8 -to DRAM_ADDR[5]
+set_location_assignment PIN_V5 -to DRAM_ADDR[4]
+set_location_assignment PIN_R6 -to DRAM_ADDR[0]
+set_location_assignment PIN_V8 -to DRAM_ADDR[1]
+set_location_assignment PIN_U8 -to DRAM_ADDR[2]
+set_location_assignment PIN_P1 -to DRAM_ADDR[3]
+set_location_assignment PIN_U2 -to DRAM_LDQM
+set_location_assignment PIN_W4 -to DRAM_UDQM
+set_location_assignment PIN_AA6 -to DRAM_CKE
+set_location_assignment PIN_AE5 -to DRAM_CLK
+set_location_assignment PIN_V6 -to DRAM_WE_N
+set_location_assignment PIN_V7 -to DRAM_CAS_N
+set_location_assignment PIN_U6 -to DRAM_RAS_N
+set_location_assignment PIN_T4 -to DRAM_CS_N
+set_location_assignment PIN_R4 -to DRAM_BA[1]
+set_location_assignment PIN_U7 -to DRAM_BA[0]
+
+#============================================================
+# KEY
+#============================================================
+
+set_location_assignment PIN_M21 -to KEY[1]
+set_location_assignment PIN_N21 -to KEY[2]
+
+#============================================================
+# LED
+#============================================================
+
+set_location_assignment PIN_G19 -to LEDR[0]
+set_location_assignment PIN_F19 -to LEDR[1]
+set_location_assignment PIN_E19 -to LEDR[2]
+set_location_assignment PIN_F21 -to LEDR[3]
+set_location_assignment PIN_F18 -to LEDR[4]
+set_location_assignment PIN_E18 -to LEDR[5]
+set_location_assignment PIN_J19 -to LEDR[6]
+set_location_assignment PIN_H19 -to LEDR[7]
+set_location_assignment PIN_J17 -to LEDR[8]
+set_location_assignment PIN_G17 -to LEDR[9]
+
+#============================================================
+# SW
+#============================================================
+
+set_location_assignment PIN_AB28 -to SW[0]
+set_location_assignment PIN_AC28 -to SW[1]
+set_location_assignment PIN_AC27 -to SW[2]
+set_location_assignment PIN_AD27 -to SW[3]
+set_location_assignment PIN_AB27 -to SW[4]
+set_location_assignment PIN_AC26 -to SW[5]
+set_location_assignment PIN_AD26 -to SW[6]
+set_location_assignment PIN_AB26 -to SW[7]
+set_location_assignment PIN_AC25 -to SW[8]
+set_location_assignment PIN_AB25 -to SW[9]
+
+#============================================================
+# VGA
+#============================================================
+
+set_location_assignment PIN_D12 -to VGA_B[7]
+set_location_assignment PIN_D11 -to VGA_B[6]
+set_location_assignment PIN_C12 -to VGA_B[5]
+set_location_assignment PIN_A11 -to VGA_B[4]
+set_location_assignment PIN_B11 -to VGA_B[3]
+set_location_assignment PIN_C11 -to VGA_B[2]
+set_location_assignment PIN_A10 -to VGA_B[1]
+set_location_assignment PIN_B10 -to VGA_B[0]
+set_location_assignment PIN_A12 -to VGA_CLK
+set_location_assignment PIN_C10 -to VGA_SYNC_N
+set_location_assignment PIN_F11 -to VGA_BLANK_N
+set_location_assignment PIN_G13 -to VGA_HS
+set_location_assignment PIN_C13 -to VGA_VS
+set_location_assignment PIN_C9 -to VGA_G[7]
+set_location_assignment PIN_F10 -to VGA_G[6]
+set_location_assignment PIN_B8 -to VGA_G[5]
+set_location_assignment PIN_C8 -to VGA_G[4]
+set_location_assignment PIN_H12 -to VGA_G[3]
+set_location_assignment PIN_F8 -to VGA_G[2]
+set_location_assignment PIN_G11 -to VGA_G[1]
+set_location_assignment PIN_G8 -to VGA_G[0]
+set_location_assignment PIN_H10 -to VGA_R[7]
+set_location_assignment PIN_H8 -to VGA_R[6]
+set_location_assignment PIN_J12 -to VGA_R[5]
+set_location_assignment PIN_G10 -to VGA_R[4]
+set_location_assignment PIN_F12 -to VGA_R[3]
+set_location_assignment PIN_D10 -to VGA_R[2]
+set_location_assignment PIN_E11 -to VGA_R[1]
+set_location_assignment PIN_E12 -to VGA_R[0]
+
+#============================================================
+# GPIO_0, GPIO_0 connect to OV7670 Camera
+#============================================================
+
+set_location_assignment PIN_AE16 -to OV7670_DATA[7]
+set_location_assignment PIN_AD21 -to OV7670_DATA[6]
+set_location_assignment PIN_Y16 -to OV7670_DATA[5]
+set_location_assignment PIN_AC21 -to OV7670_DATA[4]
+set_location_assignment PIN_Y17 -to OV7670_DATA[3]
+set_location_assignment PIN_AB21 -to OV7670_DATA[2]
+set_location_assignment PIN_AC15 -to OV7670_DATA[1]
+set_location_assignment PIN_AB22 -to OV7670_DATA[0]
+set_location_assignment PIN_AC22 -to OV7670_HREF
+set_location_assignment PIN_AC19 -to OV7670_PCLK
+set_location_assignment PIN_AD19 -to OV7670_PWDN
+set_location_assignment PIN_AF15 -to OV7670_RESET
+set_location_assignment PIN_AF24 -to OV7670_SIOC
+set_location_assignment PIN_AE21 -to OV7670_SIOD
+set_location_assignment PIN_AF25 -to OV7670_VSYNC
+set_location_assignment PIN_AF16 -to OV7670_XCLK
+
+#============================================================
+# GPIO_1, GPIO_1 connect to GPIO Default
+#============================================================
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE ../altera_pll1.v
+set_global_assignment -name VHDL_FILE ../ov7670_registers.vhd
+set_global_assignment -name VHDL_FILE ../ov7670_controller.vhd
+set_global_assignment -name VHDL_FILE ../ov7670_capture.vhd
+set_global_assignment -name VHDL_FILE ../my_frame_buffer_15to0.vhd
+set_global_assignment -name VHDL_FILE ../i2c_sender.vhd
+set_global_assignment -name VHDL_FILE ../frame_buffer.vhd
+set_global_assignment -name VHDL_FILE ../do_black_white.vhd
+set_global_assignment -name VHDL_FILE ../binary_divider.vhd
+set_global_assignment -name VHDL_FILE ../address_Generator.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE ../compress_request_system.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../image_compressor_x.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../cpu_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../weight_cnn_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../weight_nn_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../image_compressor.sv
+set_global_assignment -name QIP_FILE ../Line_Buffer1.qip
+set_global_assignment -name QIP_FILE ../Sdram_Control/Sdram_WR_FIFO.qip
+set_global_assignment -name QIP_FILE ../Sdram_Control/Sdram_RD_FIFO.qip
+set_global_assignment -name SOURCE_FILE ../Sdram_Control/Sdram_Params.h
+set_global_assignment -name VERILOG_FILE ../Sdram_Control/Sdram_Control.v
+set_global_assignment -name VERILOG_FILE ../Sdram_Control/sdr_data_path.v
+set_global_assignment -name VERILOG_FILE ../Sdram_Control/control_interface.v
+set_global_assignment -name VERILOG_FILE ../Sdram_Control/command.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../weight_rom.sv
+set_global_assignment -name VERILOG_FILE ../VGA_Controller.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../UART_tx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../UART_rx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../stack.sv
+set_global_assignment -name VERILOG_FILE ../src_mux.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../spart.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../signed_int_to_float.sv
+set_global_assignment -name VERILOG_FILE ../rst_synch.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../right_shifter.sv
+set_global_assignment -name VERILOG_FILE ../rf.v
+set_global_assignment -name VERILOG_FILE ../Reset_Delay.v
+set_global_assignment -name VERILOG_FILE ../RAW2GRAY.v
+set_global_assignment -name VERILOG_FILE ../prgm_cntr.v
+set_global_assignment -name SOURCE_FILE ../PLL.cmp
+set_global_assignment -name SYSTEMVERILOG_FILE ../MiniLab1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../left_shifter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../int_mul_16by16.sv
+set_global_assignment -name VERILOG_FILE ../instr_mem.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../ImageRecog.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../image_mem.sv
+set_global_assignment -name VERILOG_FILE ../id.v
+set_global_assignment -name VERILOG_FILE ../I2C_Controller.v
+set_global_assignment -name VERILOG_FILE ../I2C_CCD_Config.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../FP_mul.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../FP_adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../float_to_signed_int.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../fifo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../extended_ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../dualPort32x32.sv
+set_global_assignment -name VERILOG_FILE ../dst_mux.v
+set_global_assignment -name VERILOG_FILE ../data_mem.v
+set_global_assignment -name VERILOG_FILE ../cpu_tb.v
+set_global_assignment -name VERILOG_FILE ../cpu.v
+set_global_assignment -name VERILOG_FILE ../CCD_Capture.v
+set_global_assignment -name VERILOG_FILE ../br_bool.v
+set_global_assignment -name VERILOG_FILE ../alu.v
+set_global_assignment -name SDC_FILE ImageRecog.sdc
+set_global_assignment -name SDC_FILE ImageRecog.SDC
+set_global_assignment -name QIP_FILE ../PLL.qip
+set_global_assignment -name SIP_FILE ../PLL.sip
+set_global_assignment -name QIP_FILE ram_2p.qip
+set_global_assignment -name SOURCE_FILE db/ImageRecog.cmp.rdb
+set_location_assignment PIN_M23 -to RST_n
+set_location_assignment PIN_Y2 -to ref_clk
+set_location_assignment PIN_AH23 -to TX
+set_location_assignment PIN_AG26 -to RX
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

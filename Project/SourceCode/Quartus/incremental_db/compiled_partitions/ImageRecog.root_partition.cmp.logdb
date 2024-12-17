@@ -1,0 +1,7 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,cpu:iCPU|extended_ALU:iEXT_ALU|int_mul_16by16:iimul|lpm_mult:Mult0|mult_76t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,cpu:iCPU|extended_ALU:iEXT_ALU|FP_mul:ifmul|lpm_mult:Mult0|mult_bdt:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,cpu:iCPU|extended_ALU:iEXT_ALU|FP_mul:ifmul|lpm_mult:Mult0|mult_bdt:auto_generated|mac_out8,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,cpu:iCPU|extended_ALU:iEXT_ALU|FP_mul:ifmul|lpm_mult:Mult0|mult_bdt:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,cpu:iCPU|extended_ALU:iEXT_ALU|FP_mul:ifmul|lpm_mult:Mult0|mult_bdt:auto_generated|mac_out6,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,cpu:iCPU|extended_ALU:iEXT_ALU|FP_mul:ifmul|lpm_mult:Mult0|mult_bdt:auto_generated|mac_mult5,

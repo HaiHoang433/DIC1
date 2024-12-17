@@ -1,0 +1,3 @@
+Warning (10273): Verilog HDL warning at spart.sv(57): extended using "x" or "z" File: C:/Users/HoangHai/PRO/DIC1/ECE554_SP23_FPGA_Handwriting_Recognition-main/Project/SourceCode/spart.sv Line: 57
+Info (10281): Verilog HDL Declaration information at rst_synch.v(4): object "RST_n" differs only in case from object "rst_n" in the same scope File: C:/Users/HoangHai/PRO/DIC1/ECE554_SP23_FPGA_Handwriting_Recognition-main/Project/SourceCode/rst_synch.v Line: 4
+Info (10281): Verilog HDL Declaration information at ImageRecog.sv(20): object "RST_n" differs only in case from object "rst_n" in the same scope File: C:/Users/HoangHai/PRO/DIC1/ECE554_SP23_FPGA_Handwriting_Recognition-main/Project/SourceCode/ImageRecog.sv Line: 20

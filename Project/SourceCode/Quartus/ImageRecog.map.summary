@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 16 14:16:34 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : ImageRecog
+Top-level Entity Name : ImageRecog
+Family : Cyclone IV E
+Total logic elements : 6,492
+    Total combinational functions : 5,467
+    Dedicated logic registers : 2,060
+Total registers : 2060
+Total pins : 110
+Total virtual pins : 0
+Total memory bits : 2,232,320
+Embedded Multiplier 9-bit elements : 9
+Total PLLs : 1
