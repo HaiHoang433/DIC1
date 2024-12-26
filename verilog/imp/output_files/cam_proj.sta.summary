@@ -1,0 +1,425 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk50'
+Slack : -21.924
+TNS   : -7635.353
+
+Type  : Slow 1200mV 85C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -13.809
+TNS   : -110.947
+
+Type  : Slow 1200mV 85C Model Setup 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -8.296
+TNS   : -140.661
+
+Type  : Slow 1200mV 85C Model Setup 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -7.062
+TNS   : -3200.892
+
+Type  : Slow 1200mV 85C Model Setup 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -5.946
+TNS   : -78.975
+
+Type  : Slow 1200mV 85C Model Setup 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -5.016
+TNS   : -294.945
+
+Type  : Slow 1200mV 85C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.823
+TNS   : -176.002
+
+Type  : Slow 1200mV 85C Model Setup 'sdram_controller:SDRAM|busy'
+Slack : -4.517
+TNS   : -336.255
+
+Type  : Slow 1200mV 85C Model Setup 'TOP:neiroset|nextstep'
+Slack : -3.234
+TNS   : -16.170
+
+Type  : Slow 1200mV 85C Model Setup 'PCLK_cam'
+Slack : -2.430
+TNS   : -130.611
+
+Type  : Slow 1200mV 85C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 31.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk50'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sdram_controller:SDRAM|rd_ready_r'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sdram_controller:SDRAM|busy'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PCLK_cam'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'TOP:neiroset|nextstep'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'TOP:neiroset|memorywork:block|step[0]'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -1.669
+TNS   : -23.663
+
+Type  : Slow 1200mV 85C Model Removal 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 1.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -149.872
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -3.000
+TNS   : -30.420
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -2.693
+TNS   : -844.627
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sdram_controller:SDRAM|busy'
+Slack : -2.693
+TNS   : -193.132
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -2.693
+TNS   : -171.287
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TOP:neiroset|nextstep'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -0.864
+TNS   : -66.054
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.180
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.705
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk50'
+Slack : -19.641
+TNS   : -6787.992
+
+Type  : Slow 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -12.378
+TNS   : -99.278
+
+Type  : Slow 1200mV 0C Model Setup 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -7.698
+TNS   : -131.005
+
+Type  : Slow 1200mV 0C Model Setup 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -6.252
+TNS   : -2846.107
+
+Type  : Slow 1200mV 0C Model Setup 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -5.285
+TNS   : -70.189
+
+Type  : Slow 1200mV 0C Model Setup 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -4.463
+TNS   : -261.550
+
+Type  : Slow 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.316
+TNS   : -156.389
+
+Type  : Slow 1200mV 0C Model Setup 'sdram_controller:SDRAM|busy'
+Slack : -4.002
+TNS   : -299.332
+
+Type  : Slow 1200mV 0C Model Setup 'TOP:neiroset|nextstep'
+Slack : -2.839
+TNS   : -14.195
+
+Type  : Slow 1200mV 0C Model Setup 'PCLK_cam'
+Slack : -2.148
+TNS   : -112.758
+
+Type  : Slow 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 31.917
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk50'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sdram_controller:SDRAM|rd_ready_r'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sdram_controller:SDRAM|busy'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PCLK_cam'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'TOP:neiroset|nextstep'
+Slack : 0.621
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'TOP:neiroset|memorywork:block|step[0]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -1.551
+TNS   : -21.404
+
+Type  : Slow 1200mV 0C Model Removal 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 1.721
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -148.816
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -3.000
+TNS   : -30.420
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -2.649
+TNS   : -843.571
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sdram_controller:SDRAM|busy'
+Slack : -2.649
+TNS   : -192.076
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -2.649
+TNS   : -170.231
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|nextstep'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -0.885
+TNS   : -56.589
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.691
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk50'
+Slack : -10.776
+TNS   : -3673.724
+
+Type  : Fast 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.484
+TNS   : -52.018
+
+Type  : Fast 1200mV 0C Model Setup 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -4.410
+TNS   : -72.171
+
+Type  : Fast 1200mV 0C Model Setup 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -2.959
+TNS   : -1292.861
+
+Type  : Fast 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.592
+TNS   : -96.306
+
+Type  : Fast 1200mV 0C Model Setup 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -2.410
+TNS   : -30.818
+
+Type  : Fast 1200mV 0C Model Setup 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -2.345
+TNS   : -101.392
+
+Type  : Fast 1200mV 0C Model Setup 'sdram_controller:SDRAM|busy'
+Slack : -1.735
+TNS   : -108.950
+
+Type  : Fast 1200mV 0C Model Setup 'TOP:neiroset|nextstep'
+Slack : -1.161
+TNS   : -5.805
+
+Type  : Fast 1200mV 0C Model Setup 'PCLK_cam'
+Slack : -0.688
+TNS   : -23.991
+
+Type  : Fast 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 35.777
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk50'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sdram_controller:SDRAM|rd_ready_r'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PCLK_cam'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sdram_controller:SDRAM|busy'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'TOP:neiroset|nextstep'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'TOP:neiroset|memorywork:block|step[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -0.489
+TNS   : -6.873
+
+Type  : Fast 1200mV 0C Model Removal 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -109.752
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hellosoc_top:TFT|tft_ili9341:tft|frameBufferLowNibble'
+Slack : -1.000
+TNS   : -631.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sdram_controller:SDRAM|busy'
+Slack : -1.000
+TNS   : -124.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sdram_controller:SDRAM|rd_ready_r'
+Slack : -1.000
+TNS   : -107.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|conv_TOP:conv|STOP'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|nextstep'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TOP:neiroset|memorywork:block|step[0]'
+Slack : -0.398
+TNS   : -15.257
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.267
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.779
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.753
+TNS   : 0.000
+
+------------------------------------------------------------
